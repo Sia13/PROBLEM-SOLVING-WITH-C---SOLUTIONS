@@ -17,7 +17,6 @@ int main()
             result *= base;
             --power;
         }
-        // result_int = static_cast<int>(result);
         cout<<"Answer = "<<result<<endl;
     }
     

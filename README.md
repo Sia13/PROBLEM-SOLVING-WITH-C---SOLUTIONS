@@ -3,3 +3,5 @@ This repository covers the solution of practice programs and programming project
 
 Because the book did not provide solutions, so I add my own solutions for other learners.
 I hope this will be helpful for people learning C++ from this book :)
+
+Solutions of problem start fom chapter-2 because problems in chapter one are quite easy.

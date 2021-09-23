@@ -1,5 +1,5 @@
 # Solutions of 'Problem Solving With C++'
-This repository covers the solution of practice programs and programming projects at the end of the chapterfrom book [PROBLEM SOLVING WITH C++](https://thinkchina-thinkchina.blogspot.com/2019/08/pdfproblem-solving-with-c-10th.html
+This repository covers the solution of practice programs and programming projects at the end of the chapter from book [PROBLEM SOLVING WITH C++](https://thinkchina-thinkchina.blogspot.com/2019/08/pdfproblem-solving-with-c-10th.html
 
 Because the book did not provide solutions, so I add my own solutions for other learners.
 I hope this will be helpful for people learning C++ from this book :)

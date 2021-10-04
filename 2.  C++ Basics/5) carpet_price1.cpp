@@ -32,3 +32,28 @@ int main()
     }
     return 0;
 }
+
+/* Here is an alternative solution to the above ptoblem */
+
+#include<iostream>
+#include<iomanip>
+#include<numeric>
+
+int main()
+{
+    double cost_per_meter = 2.75, discount = 15.0/100.0, discount_start_length = 10.0;
+    double length;
+    std::cout<<"Enter the length of carpet in meters that you want:\n";
+    std::cin>>length;
+    
+    /* std::min returns the smalest of the numbers passed to it */
+    double normal_length = std::min(length, discount_start_length);
+    double extra_length = length - normal - length;
+    
+    double total_cost = normal_length * cost_per_meter * (1 - discount);
+    
+    //Print the result
+    std::cout.setf(std::ios::fixed);
+    std::cout::precision(2);
+    std::cout<<"Total cost is $"<<total_cost<<endl;
+}
